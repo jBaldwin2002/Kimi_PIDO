@@ -30,17 +30,14 @@
       "@controllers/*": ["src/controllers/*"],
       "@middleware/*": ["src/middleware/*"],
       "@models/*": ["src/models/*"],
+      "@routes": ["src/routes/index"],
       "@routes/*": ["src/routes/*"],
       "@services/*": ["src/services/*"],
-      "@types/*": ["src/types/*"],
+      "@types": ["src/types/index"], // <--- AGREGA ESTA
+      "@types/*": ["src/types/*"], // <--- MANTÉN ESTA
       "@utils/*": ["src/utils/*"]
     }
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

@@ -1,0 +1,2 @@
+{"environment":"development","error":"la autentificaci�n password fall� para el usuario �pido_user�","level":"error","message":"Error conectando a la base de datos","service":"pido-api","timestamp":"2026-03-06 12:47:17"}
+{"environment":"development","error":"la autentificaci�n password fall� para el usuario �pido_user�","level":"error","message":"Error conectando a la base de datos","service":"pido-api","timestamp":"2026-03-06 12:47:37"}
